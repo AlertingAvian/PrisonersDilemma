@@ -21,7 +21,7 @@ def action(iteration,opponent_history):
 - [RandCrack](https://pypi.org/project/randcrack/) is not required
 - [art](https://pypi.org/project/art/) is required
 
-## Copyright ans License
+## Copyright and License
 
 Copyright (C) 2020 Patrick Maloney
 
