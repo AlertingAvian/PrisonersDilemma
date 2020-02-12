@@ -46,7 +46,7 @@ def run_iters(teams,rounds):
   for i in range(rounds):
     for team in teams:
       # make choices
-      team_choice = team.action(i, opponent_history)
+      team_choice = team.action(i, opponent_history).lower()
       opponent_choice = make_choice()
       # record choices
       team.player_history += (team_choice)
