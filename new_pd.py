@@ -64,7 +64,7 @@ def score_report(teams):
   line = '-' * 50
   logo = text2art("Score Report","isometric3")
   print(logo)
-  print(line*3+'----------')
+  print(line*3+'---------')
   sleep(2)
   for team in teams:
     team_scores[team] = team.score
