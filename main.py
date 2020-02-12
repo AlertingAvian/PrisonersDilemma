@@ -8,4 +8,4 @@ import new_pd
 import nt1, nt2, nt3,nt4
 
 # new_pd.start(<list of teams>, <Number of iterations>) to run the game
-new_pd.start([nt1, nt2, nt3, nt4], 1000)
+new_pd.start([nt1, nt2, nt3, nt4], 100)
