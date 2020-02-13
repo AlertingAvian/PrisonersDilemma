@@ -9,15 +9,11 @@ rc = RandCrack()
 def action(iteration,opponent_history):
   '''This is where the execution of your plan will go. '''
   go = False
+  reactions = {'a':'b','b':'b','c':'b'}
   if iteration == 0:
     go = True
   predicted = guess(go)
-  if predicted == 'a':
-    return 'b'
-  elif predicted == 'b':
-    return 'b'
-  elif predicted == 'c':
-    return 'b'
+  return reactions[predicted]
   
 def guess(go):
   if go:

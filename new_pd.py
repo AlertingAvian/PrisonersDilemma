@@ -52,8 +52,13 @@ def run_iters(teams,rounds):
       team.player_history += (team_choice)
       opponent_history += (opponent_choice)
       choices = team_choice + opponent_choice
-      team.score += score_sheet[choices]
-      print(choices)
+      try:
+        team.score += score_sheet[choices]
+      except:
+        team.score += -250
+        print(f'{team} had an error.')
+      # print(choices)
+      print(f'Opponent: {opponent_choice}')
   score_report(teams)
   
 def score_report(teams):
