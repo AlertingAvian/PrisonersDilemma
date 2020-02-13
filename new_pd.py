@@ -89,6 +89,8 @@ def score_report(teams):
   print(fa)
   sleep(5)
   print(first_place)
+  sleep(.5)
+  print(line*3+'---------')
   sleep(10)
   for i in range(40):
     print()
@@ -100,3 +102,4 @@ def score_report(teams):
   print()
   sleep(1)
   print("Copyright (C) 2020 Patrick Maloney")
+  print()
