@@ -33,6 +33,7 @@ def start(teams,rounds):
     print(f'{team.name}: {team.plan}')
   print()
   print()
+  sleep(5)
   run_iters(teams,rounds)
 
 def make_choice():
@@ -49,13 +50,14 @@ def run_iters(teams,rounds):
       team_choice = team.action(i, opponent_history).lower()
       opponent_choice = make_choice()
       # record choices
-      team.player_history += (team_choice)
       opponent_history += (opponent_choice)
       choices = team_choice + opponent_choice
       try:
         team.score += score_sheet[choices]
+        team.player_history += (team_choice)
       except:
         team.score += -250
+        team.player_history += 'e'
         print(f'{team} had an error.')
       # print(choices)
       print(f'Opponent: {opponent_choice}')
@@ -104,6 +106,7 @@ def score_report(teams):
   for team in teams:
     sleep(.5)
     print(f'{team.name} scored {team.score} points')
+    print(team.player_history)
   print()
   sleep(1)
   print("Copyright (C) 2020 Patrick Maloney")

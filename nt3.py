@@ -1,4 +1,4 @@
-name = 'Team 3'
+# name = 'Team 3'
 plan = 'Always collude'
 
 

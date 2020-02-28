@@ -1,0 +1,32 @@
+reloaded <module 'nt1' from '/home/runner/ipd-win/nt1.py'>
+reloaded <module 'nt2' from '/home/runner/ipd-win/nt2.py'>
+
+
+WARNING:
+Invalid team name in module <module 'nt2' from '/home/runner/ipd-win/nt2.py'>: Team 1
+Replacing name with UUID:
+cb7b20ff-4720-41f1-b8d7-087a8a75ef99
+
+Please avoid duplicate names
+
+reloaded <module 'nt3' from '/home/runner/ipd-win/nt3.py'>
+
+
+WARNING:
+Missing team name in module <module 'nt3' from '/home/runner/ipd-win/nt3.py'>
+Replacing name with UUID:
+6ad6997e-f282-4444-93d7-215d41581f6b
+
+reloaded <module 'nt4' from '/home/runner/ipd-win/nt4.py'>
+
+
+WARNING:
+Missing team name in module <module 'nt4' from '/home/runner/ipd-win/nt4.py'>
+Replacing name with UUID:
+a31ca473-b4c5-466a-8d94-796ef7a35491
+
+There are 4 team(s)
+And those teams and their plans are: 
+
+Team 1: Always betraycb7b20ff-4720-41f1-b8d7-087a8a75ef99: Randomly choose6ad6997e-f282-4444-93d7-215d41581f6b: Always colludea31ca473-b4c5-466a-8d94-796ef7a35491: Try to actually win
+

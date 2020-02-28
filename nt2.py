@@ -1,4 +1,4 @@
-name = 'Team 2'
+name = 'Team 1'
 plan = 'Randomly choose'
 
 
